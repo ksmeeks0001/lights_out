@@ -1,0 +1,50 @@
+h1 {
+    font-size: 58px;
+    font-weight: bold;
+    color: slategray;
+    text-align: center;
+    padding-left: 375px;
+}
+
+body {
+    background-color: burlywood;
+    width: 860px;
+}
+
+h3 {
+    font-size: 24px;
+    color: black;
+    padding-left: 100px;
+
+}
+.block {
+    width: 80px;
+    height: 80px;
+    background-color: slategray;
+    border: solid 5px black;
+    float: left;
+    margin: 0;
+}
+
+.empty {
+    width: 400px;
+    height: 80px;
+    float: left;
+    margin: 0;
+}
+
+.upper {
+    border-top: solid 10px black;
+}
+
+.left {
+    border-left: solid 10px black;
+}
+
+.bottom {
+    border-bottom: solid 10px black;
+}
+
+.right {
+    border-right: solid 10px black;
+}
