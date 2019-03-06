@@ -1,14 +1,13 @@
-//3X3 matrix for the board.
+//5X5 matrix for the board.
 // 0="off"     1="on"
-let board = [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]];
+let board = [[0,0,0,0,0],
+             [0,0,0,0,0],
+             [0,0,0,0,0],
+             [0,0,0,0,0],
+             [0,0,0,0,0]];
+
 let level_count = document.getElementById("level_count");
-
-
 let blocks = document.getElementsByClassName("block");
-
-
-
-
 
 for (let i=0; i<25; i++) {
     blocks[i].addEventListener("click", function () {
